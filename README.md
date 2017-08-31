@@ -8,3 +8,5 @@ Data for third select(teams) is fetched by sending an AJAX call to a third party
 User has the ability to save his choice by clicking the bookmark button. Now when the user logs in again he will find his previously bookmarked choice.
 IndexedDB is implemented to save user's choices.
 Following tutorial was followed to implement IndexedDB -->https://code.tutsplus.com/tutorials/working-with-indexeddb--net-34673
+
+Link --> https://ronak111091.github.io/SoccerClubSearch/index.html
