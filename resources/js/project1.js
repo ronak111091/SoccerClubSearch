@@ -34,7 +34,7 @@ var secondSelectOptions = {
     id : 426,
     teams : "http://api.football-data.org/v1/competitions/426/teams",
     leagueTable : "http://api.football-data.org/v1/competitions/426/leagueTable",
-    logo : "../project1/resources/images/Premier_League_Logo.svg"
+    logo : "../SoccerClubSearch/resources/images/Premier_League_Logo.svg"
   },
   "EFL Championship" : {
     name : "EFL Championship",
@@ -42,7 +42,7 @@ var secondSelectOptions = {
     id : 427,
     teams : "http://api.football-data.org/v1/competitions/427/teams",
     leagueTable : "http://api.football-data.org/v1/competitions/427/leagueTable",
-    logo : "../project1/resources/images/English_Football_League_Logo.svg"
+    logo : "../SoccerClubSearch/resources/images/English_Football_League_Logo.svg"
   },
   "La Liga" : {
     name : "La Liga",
@@ -50,7 +50,7 @@ var secondSelectOptions = {
     id : 436,
     teams : "http://api.football-data.org/v1/competitions/436/teams",
     leagueTable : "http://api.football-data.org/v1/competitions/436/leagueTable",
-    logo : "../project1/resources/images/LaLiga.svg"
+    logo : "../SoccerClubSearch/resources/images/LaLiga.svg"
   },
   "Segunda Division" : {
     name : "Segunda Division",
@@ -58,7 +58,7 @@ var secondSelectOptions = {
     id : 437,
     teams : "http://api.football-data.org/v1/competitions/437/teams",
     leagueTable : "http://api.football-data.org/v1/competitions/437/leagueTable",
-    logo : "../project1/resources/images/Liga_Adelante.svg"
+    logo : "../SoccerClubSearch/resources/images/Liga_Adelante.svg"
   },
   "Bundesliga" : {
     name : "Bundesliga",
@@ -66,7 +66,7 @@ var secondSelectOptions = {
     id : 430,
     teams : "http://api.football-data.org/v1/competitions/430/teams",
     leagueTable : "http://api.football-data.org/v1/competitions/430/leagueTable",
-    logo : "../project1/resources/images/Bundesliga_logo.svg"
+    logo : "../SoccerClubSearch/resources/images/Bundesliga_logo.svg"
   },
   "Bundesliga 2" : {
     name : "Bundesliga 2",
@@ -74,7 +74,7 @@ var secondSelectOptions = {
     id : 431,
     teams : "http://api.football-data.org/v1/competitions/431/teams",
     leagueTable : "http://api.football-data.org/v1/competitions/431/leagueTable",
-    logo : "../project1/resources/images/2._Bundesliga_logo.svg"
+    logo : "../SoccerClubSearch/resources/images/2._Bundesliga_logo.svg"
   }
 };
 
@@ -108,7 +108,7 @@ function buildHTMLForSecondSelect(selectedValue){
   console.log("buildHTMLForSecondSelect called!");
   var div1 = document.createElement("div");
   var countryFlag = document.createElement("img");
-  countryFlag.src = "../project1/resources/images/"+selectedValue+".svg";
+  countryFlag.src = "../SoccerClubSearch/resources/images/"+selectedValue+".svg";
   console.log(countryFlag.src);
   countryFlag.alt = "Country Flag";
   countryFlag.setAttribute("style","height:60px;width:100px");
@@ -199,7 +199,7 @@ function buildHTMLForResult(team){
   var teamsCrestURL = team.crestUrl;
 
   if(teamsCrestURL==null || teamsCrestURL==""){
-    teamsCrestURL = "../project1/resources/images/default-team-logo.png"
+    teamsCrestURL = "../SoccerClubSearch/resources/images/default-team-logo.png"
   }
   var crest = document.createElement("img");
   crest.src = teamsCrestURL;
