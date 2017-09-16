@@ -32,48 +32,48 @@ var secondSelectOptions = {
     name : "Premier League",
     country : "ENG",
     id : 426,
-    teams : "http://api.football-data.org/v1/competitions/426/teams",
-    leagueTable : "http://api.football-data.org/v1/competitions/426/leagueTable",
+    teams : "https://api.football-data.org/v1/competitions/426/teams",
+    leagueTable : "https://api.football-data.org/v1/competitions/426/leagueTable",
     logo : "../SoccerClubSearch/resources/images/Premier_League_Logo.svg"
   },
   "EFL Championship" : {
     name : "EFL Championship",
     country : "ENG",
     id : 427,
-    teams : "http://api.football-data.org/v1/competitions/427/teams",
-    leagueTable : "http://api.football-data.org/v1/competitions/427/leagueTable",
+    teams : "https://api.football-data.org/v1/competitions/427/teams",
+    leagueTable : "https://api.football-data.org/v1/competitions/427/leagueTable",
     logo : "../SoccerClubSearch/resources/images/English_Football_League_Logo.svg"
   },
   "La Liga" : {
     name : "La Liga",
     country : "SPA",
     id : 436,
-    teams : "http://api.football-data.org/v1/competitions/436/teams",
-    leagueTable : "http://api.football-data.org/v1/competitions/436/leagueTable",
+    teams : "https://api.football-data.org/v1/competitions/436/teams",
+    leagueTable : "https://api.football-data.org/v1/competitions/436/leagueTable",
     logo : "../SoccerClubSearch/resources/images/LaLiga.svg"
   },
   "Segunda Division" : {
     name : "Segunda Division",
     country : "SPA",
     id : 437,
-    teams : "http://api.football-data.org/v1/competitions/437/teams",
-    leagueTable : "http://api.football-data.org/v1/competitions/437/leagueTable",
+    teams : "https://api.football-data.org/v1/competitions/437/teams",
+    leagueTable : "https://api.football-data.org/v1/competitions/437/leagueTable",
     logo : "../SoccerClubSearch/resources/images/Liga_Adelante.svg"
   },
   "Bundesliga" : {
     name : "Bundesliga",
     country : "GER",
     id : 430,
-    teams : "http://api.football-data.org/v1/competitions/430/teams",
-    leagueTable : "http://api.football-data.org/v1/competitions/430/leagueTable",
+    teams : "https://api.football-data.org/v1/competitions/430/teams",
+    leagueTable : "https://api.football-data.org/v1/competitions/430/leagueTable",
     logo : "../SoccerClubSearch/resources/images/Bundesliga_logo.svg"
   },
   "Bundesliga 2" : {
     name : "Bundesliga 2",
     country : "GER",
     id : 431,
-    teams : "http://api.football-data.org/v1/competitions/431/teams",
-    leagueTable : "http://api.football-data.org/v1/competitions/431/leagueTable",
+    teams : "https://api.football-data.org/v1/competitions/431/teams",
+    leagueTable : "https://api.football-data.org/v1/competitions/431/leagueTable",
     logo : "../SoccerClubSearch/resources/images/2._Bundesliga_logo.svg"
   }
 };
